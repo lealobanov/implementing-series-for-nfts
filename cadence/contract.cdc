@@ -1,3 +1,5 @@
+// The below is a series structure that lays out how a series is to be created
+
 // Variable size dictionary of SeriesData structs
 access(self) var seriesData: {UInt32: SeriesData}
 
