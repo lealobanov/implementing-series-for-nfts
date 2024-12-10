@@ -1,6 +1,6 @@
 {
 	"contracts": {
-		"ExampleToken": {
+		"Recipe": {
 			"source": "./cadence/contracts/Recipe.cdc",
 			"aliases": {
 				"emulator": "f8d6e0586b0a20c7"
@@ -99,7 +99,7 @@
 	"deployments": {
 		"emulator": {
 			"emulator-account": [
-				"ExampleToken"
+				"Recipe"
 			]
 		}
 	}
