@@ -8,7 +8,7 @@ access(all) fun testExample() {
 access(all)
 fun setup() {
     let err = Test.deployContract(
-        name: "ExampleToken",
+        name: "Recipe",
         path: "../contracts/Recipe.cdc",
         arguments: [],
     )
